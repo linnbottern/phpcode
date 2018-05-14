@@ -20,5 +20,5 @@ build:
         IDENTIFIER: $IDENTIFIER
         application_name: $WERCKER_GIT_OWNER
         application_type: php
-        file: node_fighter-0.0.1.$OPC_USERNAME.zip
+        file: php_fighter-0.0.1.$OPC_USERNAME.zip
         subscription_type: Hourly
