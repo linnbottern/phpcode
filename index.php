@@ -21,7 +21,7 @@ error_log(print_r($verb, TRUE));
 switch ($verb) {
     case 'GET':
     		// sample GET URL
-            $url = "http://ip.jsontest.com/";
+            $url = "http://129.157.179.180:3000/shield/33/45/white/forthewin";
 			$getRequestResponse = file_get_contents($url);
 			
 			$link = mysqli_connect('myHost', 'myUser', 'myPassword', 'myDatabase');
