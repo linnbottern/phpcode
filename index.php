@@ -1,3 +1,4 @@
+// My microservice!
 <?php
 
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
